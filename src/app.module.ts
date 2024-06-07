@@ -10,6 +10,7 @@ import { UploadsController } from './uploads/uploads/uploads.controller';
 import { ImageModule } from './image/image.module';
 import { PublicacionModule } from './publicacion/publicacion.module';
 import { InformacionModule } from './informacion/informacion.module';
+import { ServiciosModule } from './servicios/servicios.module';
 
 
 @Module({
@@ -38,6 +39,7 @@ import { InformacionModule } from './informacion/informacion.module';
     ImageModule,
     PublicacionModule,
     InformacionModule,
+    ServiciosModule,
   ],
   controllers: [AppController, UploadsController],
   providers: [AppService],
