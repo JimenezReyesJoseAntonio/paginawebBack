@@ -8,6 +8,7 @@ import { UsersModule } from './users/users.module';
 import { AuthModule } from './auth/auth.module';
 import { UploadsController } from './uploads/uploads/uploads.controller';
 import { ImageModule } from './image/image.module';
+import { PublicacionModule } from './publicacion/publicacion.module';
 
 
 @Module({
@@ -34,6 +35,7 @@ import { ImageModule } from './image/image.module';
     UsersModule,
     AuthModule,
     ImageModule,
+    PublicacionModule,
   ],
   controllers: [AppController, UploadsController],
   providers: [AppService],
