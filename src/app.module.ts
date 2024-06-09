@@ -11,6 +11,8 @@ import { ImageModule } from './image/image.module';
 import { PublicacionModule } from './publicacion/publicacion.module';
 import { InformacionModule } from './informacion/informacion.module';
 import { ServiciosModule } from './servicios/servicios.module';
+import { NoticiasModule } from './noticias/noticias.module';
+import { OrganigramaModule } from './organigrama/organigrama.module';
 
 
 @Module({
@@ -40,6 +42,8 @@ import { ServiciosModule } from './servicios/servicios.module';
     PublicacionModule,
     InformacionModule,
     ServiciosModule,
+    NoticiasModule,
+    OrganigramaModule,
   ],
   controllers: [AppController, UploadsController],
   providers: [AppService],
